@@ -1,3 +1,11 @@
+/* Lab 2 for CISC181, Lab Section 032, Group 3
+ * Broadwater, Geoffrey
+ * Moglia, David
+ * Walker, Julia
+ * Shaqsi, Radhawan
+ * All members participated equally
+ */
+
 package pkgCore;
 import pkgEnum.*;
 public class Card implements Comparable {
