@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import pkgCore.Die;
-
 public class DieTest {
 
 	@Test

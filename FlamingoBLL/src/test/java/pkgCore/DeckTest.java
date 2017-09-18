@@ -2,15 +2,20 @@ package pkgCore;
 
 import static org.junit.Assert.*;
 
+
 import org.junit.Test;
 
 public class DeckTest {
 
+	private Deck d1 = new Deck(1);
+	private Deck d2;
 	@Test
 	public void TestDeck() {
+		assertEquals(52,d1.getDeckCards().size());
+		d2 = new Deck(6);
 		
-		//	TODO: Build a deck(1), make sure there are 52 cards in the deck
-		//	TODO: Build a deck(6), make sure there are 312 cards in the deck 
+		
+		assertEquals(312, d2.getDeckCards().size());
+		}
 	}
 
-}
